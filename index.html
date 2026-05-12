@@ -354,6 +354,16 @@
             line-height: 1.4;
         }
 
+        .project-link {
+            color: inherit;
+            text-decoration: none;
+            transition: color .2s;
+        }
+
+        .project-link:hover {
+            color: var(--accent);
+        }
+
         .project-card p {
             color: var(--muted);
             font-size: .875rem;
@@ -602,7 +612,7 @@
                         htmlContent += `
                             <div class="project-card fade-up" style="transition-delay: ${delay}">
                                 <span class="project-icon">${project.icon}</span>
-                                <h4>${project.title}</h4>
+                                <h4><a href="${project.url}" target="_blank" class="project-link">${project.title}</a></h4>
                                 <p>${project.deskripsi}</p>
                                 <div class="tags">
                                     ${tagsHtml}
