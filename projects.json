@@ -1,0 +1,35 @@
+[
+    {
+        "icon": "🎓",
+        "title": "Siramah — Academic Management",
+        "deskripsi": "Sistem informasi akademik dengan fitur pelacakan mahasiswa dan filter multi-select untuk pelaporan operasional.",
+        "tags": [
+            "CodeIgniter 4",
+            "Bootstrap 5",
+            "MySQL"
+        ],
+        "delay": ".05s"
+    },
+    {
+        "icon": "📒",
+        "title": "E-Kinerja — Performance Journal",
+        "deskripsi": "Aplikasi jurnal kinerja harian yang terintegrasi dengan modul To-Do List untuk merekam aktivitas akademik dan input data.",
+        "tags": [
+            "CodeIgniter 4",
+            "AJAX",
+            "Reporting"
+        ],
+        "delay": ".12s"
+    },
+    {
+        "icon": "♻️",
+        "title": "Bank Sampah — Kampung Keren",
+        "deskripsi": "Platform digitalisasi pengelolaan sampah berbasis komunitas yang mengadopsi model Pentahelix untuk pelaporan data harian.",
+        "tags": [
+            "Web App",
+            "Community",
+            "Data Grid"
+        ],
+        "delay": ".19s"
+    }
+]
