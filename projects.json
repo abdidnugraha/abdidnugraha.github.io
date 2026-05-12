@@ -2,6 +2,7 @@
     {
         "icon": "🎓",
         "title": "Siramah — Academic Management",
+        "url": "https://github.com/abdidnugraha",
         "deskripsi": "Sistem informasi akademik dengan fitur pelacakan mahasiswa dan filter multi-select untuk pelaporan operasional.",
         "tags": [
             "CodeIgniter 4",
@@ -13,6 +14,7 @@
     {
         "icon": "📒",
         "title": "E-Kinerja — Performance Journal",
+        "url": "https://github.com/abdidnugraha",
         "deskripsi": "Aplikasi jurnal kinerja harian yang terintegrasi dengan modul To-Do List untuk merekam aktivitas akademik dan input data.",
         "tags": [
             "CodeIgniter 4",
@@ -24,6 +26,7 @@
     {
         "icon": "♻️",
         "title": "Bank Sampah — Kampung Keren",
+        "url": "https://github.com/abdidnugraha",
         "deskripsi": "Platform digitalisasi pengelolaan sampah berbasis komunitas yang mengadopsi model Pentahelix untuk pelaporan data harian.",
         "tags": [
             "Web App",
