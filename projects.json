@@ -23,7 +23,7 @@
         "icon": "🛡️",
         "title": "SIAP — Aspirations & Complaint System",
         "url": "https://github.com/abdidnugraha/siap-pub",
-        "deskripsi": "Anonymous campus reporting and aspiration platform built with a security-first approach, featuring zero-registration reporting, audit trail logging, and investigator workflow management.",
+        "deskripsi": "Platform aspirasi dan pengaduan kampus berbasis anonimitas dengan pendekatan security-first, dilengkapi audit trail, manajemen investigasi, dan sistem pelaporan tanpa registrasi.",
         "tags": [
             "CodeIgniter 4",
             "Security System",
