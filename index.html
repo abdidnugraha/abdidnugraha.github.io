@@ -218,9 +218,38 @@
                     document.querySelectorAll('#projects-container .fade-up').forEach(el => {
                         observer.observe(el);
                     });
+
+                    // Add modal click events
+                    document.querySelectorAll('.preview-trigger').forEach(img => {
+                        img.addEventListener('click', function() {
+                            const modal = document.getElementById('imageModal');
+                            const modalImg = document.getElementById('modalImage');
+                            modalImg.src = this.getAttribute('data-image');
+                            modal.classList.add('show');
+                        });
+                    });
                 })
                 .catch(error => console.error('Gagal memuat projects.json:', error));
         })();
+
+        // Modal close events
+        const imageModal = document.getElementById('imageModal');
+        const closeModalBtn = document.querySelector('.close-modal');
+
+        if (closeModalBtn) {
+            closeModalBtn.addEventListener('click', function() {
+                imageModal.classList.remove('show');
+            });
+        }
+
+        if (imageModal) {
+            imageModal.addEventListener('click', function(e) {
+                if (e.target === this) {
+                    this.classList.remove('show');
+                }
+            });
+        }
+
     </script>
     <script>
         lucide.createIcons();
