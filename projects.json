@@ -1,9 +1,9 @@
 [
     {
         "icon": "🎓",
-        "title": "Siramah — Sistem Informasi Rangkuman Mahasiswa",
+        "title": "Siramah — Student Summary Information System",
         "url": "https://siramah.stmikplk.ac.id",
-        "deskripsi": "Sebuah platform business intelligence internal yang menyajikan data mahasiswa dalam bentuk ringkasan visual, interaktif, dan mudah dianalisis.",
+        "deskripsi": "An internal business intelligence platform designed to present student data through visual summaries, interactive dashboards, and easy-to-analyze insights.",
         "tags": [
             "CodeIgniter 4",
             "Bootstrap 5",
@@ -15,15 +15,19 @@
         "icon": "🔗",
         "title": "KalaShort",
         "url": "https://github.com/abdidnugraha/kalashort-pub",
-        "deskripsi": "Modern URL Shortener berbasis CodeIgniter 4 dengan fitur analytics real-time, QR Code generator, traffic logging, dan dashboard management yang ringan, cepat, serta mobile-friendly.",
-        "tags": ["Url Shortener", "CodeIgniter 5", "Bootstrap 5"],
+        "deskripsi": "A modern URL shortener built with CodeIgniter 4 featuring real-time analytics, QR code generation, traffic logging, and a lightweight mobile-friendly dashboard.",
+        "tags": [
+            "URL Shortener",
+            "CodeIgniter 4",
+            "Bootstrap 5"
+        ],
         "delay": ".19s"
     },
     {
         "icon": "🛡️",
         "title": "SIAP — Aspirations & Complaint System",
         "url": "https://github.com/abdidnugraha/siap-pub",
-        "deskripsi": "Platform aspirasi dan pengaduan kampus berbasis anonimitas dengan pendekatan security-first, dilengkapi audit trail, manajemen investigasi, dan sistem pelaporan tanpa registrasi.",
+        "deskripsi": "An anonymous campus reporting and aspiration platform built with a security-first approach, featuring audit trails, investigation workflows, and registration-free reporting.",
         "tags": [
             "CodeIgniter 4",
             "Security System",
@@ -35,7 +39,7 @@
         "icon": "📒",
         "title": "E-Kinerja — Performance Journal",
         "url": "https://abdidnugraha.github.io/coming-soon.html",
-        "deskripsi": "Aplikasi jurnal kinerja harian yang terintegrasi dengan modul To-Do List untuk merekam aktivitas akademik dan input data.",
+        "deskripsi": "A daily performance journaling system integrated with task tracking modules for recording academic activities and operational workflows.",
         "tags": [
             "CodeIgniter 4",
             "AJAX",
@@ -47,32 +51,48 @@
         "icon": "💰",
         "title": "Cashflow",
         "url": "https://abdidnugraha.github.io/coming-soon.html",
-        "deskripsi": "Aplikasi pencatatan arus kas masuk dan keluar untuk manajemen keuangan personal dengan fitur rekapitulasi laporan bulanan.",
-        "tags": ["CodeIgniter 4", "Finance", "MySQL"],
+        "deskripsi": "A personal finance management application for tracking income and expenses, complete with monthly financial recap and reporting features.",
+        "tags": [
+            "CodeIgniter 4",
+            "Finance",
+            "MySQL"
+        ],
         "delay": ".12s"
     },
     {
         "icon": "🎓",
-        "title": "Sistem Informasi Pendaftaran Yudisium",
+        "title": "Graduation Registration Information System",
         "url": "https://abdidnugraha.github.io/coming-soon.html",
-        "deskripsi": "Platform administrasi pendaftaran yudisium mahasiswa yang dilengkapi dengan fitur verifikasi berkas dan pelacakan status akademik.",
-        "tags": ["Academic", "Administration", "Workflow"],
+        "deskripsi": "An academic administration platform for graduation registration, equipped with document verification and student status tracking features.",
+        "tags": [
+            "Academic",
+            "Administration",
+            "Workflow"
+        ],
         "delay": ".05s"
     },
     {
         "icon": "🖥️",
-        "title": "Display Informasi Berbasis Web",
+        "title": "Web-Based Information Display",
         "url": "https://abdidnugraha.github.io/coming-soon.html",
-        "deskripsi": "Sistem papan informasi digital (digital signage) untuk menampilkan pengumuman, jadwal, dan agenda secara real-time di area publik.",
-        "tags": ["Digital Signage", "UI/UX", "AJAX"],
+        "deskripsi": "A digital signage system designed to display announcements, schedules, and public information in real time across institutional environments.",
+        "tags": [
+            "Digital Signage",
+            "UI/UX",
+            "AJAX"
+        ],
         "delay": ".12s"
     },
     {
         "icon": "🏢",
-        "title": "Sistem Informasi Penggajian",
+        "title": "Payroll Information System",
         "url": "https://abdidnugraha.github.io/coming-soon.html",
-        "deskripsi": "Sistem manajemen payroll untuk otomatisasi perhitungan gaji pokok, tunjangan, dan potongan operasional instansi.",
-        "tags": ["Payroll", "CodeIgniter 4", "Bootstrap 5"],
+        "deskripsi": "A payroll management system built to automate salary calculations, allowances, deductions, and institutional payroll operations.",
+        "tags": [
+            "Payroll",
+            "CodeIgniter 4",
+            "Bootstrap 5"
+        ],
         "delay": ".19s"
     }
 ]
