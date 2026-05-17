@@ -25,22 +25,22 @@
         <header>
             <div class="logo">Abdi D. Nugraha</div>
             <nav>
-                <a href="#projects">Projects</a>
-                <a href="#about">About</a>
+                <a href="#projects" class="nav-text-only">Projects</a>
+                <a href="#about" class="nav-text-only">About</a>
 
-                <a href="https://github.com/abdidnugraha" target="_blank">
+                <a href="https://github.com/abdidnugraha" target="_blank" title="GitHub">
                     <i class="fa-brands fa-github"></i>
-                    GitHub
+                    <span class="nav-text">GitHub</span>
                 </a>
 
-                <a href="https://www.instagram.com/abdidnugraha/" target="_blank">
+                <a href="https://www.instagram.com/abdidnugraha/" target="_blank" title="Instagram">
                     <i class="fa-brands fa-instagram"></i>
-                    Instagram
+                    <span class="nav-text">Instagram</span>
                 </a>
 
-                <a href="mailto:abdidnugraha@gmail.com">
+                <a href="mailto:abdidnugraha@gmail.com" title="Email">
                     <i class="fa-regular fa-envelope"></i>
-                    Email
+                    <span class="nav-text">Email</span>
                 </a>
             </nav>
         </header>
@@ -142,7 +142,6 @@
     </div>
 
     <script>
-        // Intersection observer for fade-up animations
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
@@ -152,11 +151,8 @@
             });
         }, { threshold: 0.12 });
 
-        // Observasi elemen statis yang sudah ada saat load pertama
         document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
 
-        // Fetch data dari JSON dan Render ke HTML
-        // (Tidak perlu DOMContentLoaded — script sudah di bawah body, DOM pasti sudah siap)
         (function () {
             const container = document.getElementById('projects-container');
 
@@ -166,13 +162,10 @@
                     let htmlContent = '';
 
                     data.forEach(project => {
-                        // Looping tag/tech stack
                         let tagsHtml = project.tags.map(tag => `<span class="tag">${tag}</span>`).join('');
 
-                        // Menangani delay animasi jika ada di JSON, jika tidak set default
                         let delay = project.delay ? project.delay : '0s';
 
-                        // Bentuk struktur card sesuai desain HTML
                         htmlContent += `
                         
                         <div class="project-card fade-up" style="transition-delay: ${delay}">
@@ -216,17 +209,14 @@
                         `;
                     });
 
-                    // Suntikkan ke container
                     container.innerHTML = htmlContent;
 
-                    // Observasi kembali elemen baru yang barusan di-inject agar animasinya jalan
                     document.querySelectorAll('#projects-container .fade-up').forEach(el => {
                         observer.observe(el);
                     });
 
-                    // Add modal click events
                     document.querySelectorAll('.preview-trigger').forEach(img => {
-                        img.addEventListener('click', function() {
+                        img.addEventListener('click', function () {
                             const modal = document.getElementById('imageModal');
                             const modalImg = document.getElementById('modalImage');
                             modalImg.src = this.getAttribute('data-image');
@@ -237,18 +227,17 @@
                 .catch(error => console.error('Gagal memuat projects.json:', error));
         })();
 
-        // Modal close events
         const imageModal = document.getElementById('imageModal');
         const closeModalBtn = document.querySelector('.close-modal');
 
         if (closeModalBtn) {
-            closeModalBtn.addEventListener('click', function() {
+            closeModalBtn.addEventListener('click', function () {
                 imageModal.classList.remove('show');
             });
         }
 
         if (imageModal) {
-            imageModal.addEventListener('click', function(e) {
+            imageModal.addEventListener('click', function (e) {
                 if (e.target === this) {
                     this.classList.remove('show');
                 }
@@ -260,4 +249,5 @@
         lucide.createIcons();
     </script>
 </body>
+
 </html>

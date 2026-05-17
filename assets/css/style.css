@@ -36,7 +36,6 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-/* ─── Subtle ambient light ─── */
 body::before {
     content: '';
     position: fixed;
@@ -55,7 +54,6 @@ body::before {
     margin: auto;
 }
 
-/* ─── Header ─── */
 header {
     padding: 36px 0 0;
     display: flex;
@@ -91,7 +89,6 @@ nav a:hover {
     background: rgba(255, 255, 255, .05);
 }
 
-/* ─── Hero ─── */
 .hero {
     padding: 120px 0 100px;
     display: grid;
@@ -184,7 +181,6 @@ h1 em {
     background: rgba(255, 255, 255, .04);
 }
 
-/* ─── About Card ─── */
 .about-card {
     background: var(--card);
     border: 1px solid var(--border);
@@ -246,14 +242,12 @@ h1 em {
     font-weight: 500;
 }
 
-/* ─── Divider ─── */
 .divider {
     height: 1px;
     background: linear-gradient(90deg, transparent, var(--border-hi), transparent);
     margin: 0;
 }
 
-/* ─── Projects ─── */
 .section {
     padding: 96px 0;
 }
@@ -416,8 +410,6 @@ h2 {
     font-size: 11px;
 }
 
-/* ─── Nav Icons ─── */
-
 nav a {
     display: inline-flex;
     align-items: center;
@@ -444,7 +436,6 @@ nav a i {
     font-weight: 500;
 }
 
-/* ─── Quote ─── */
 .quote-wrap {
     padding: 0 0 96px;
 }
@@ -483,7 +474,6 @@ nav a i {
     margin: 0 auto;
 }
 
-/* ─── Footer ─── */
 footer {
     border-top: 1px solid var(--border);
     padding: 32px 0;
@@ -504,7 +494,6 @@ footer a:hover {
     color: var(--text);
 }
 
-/* ─── Fade-in animation ─── */
 .fade-up {
     opacity: 0;
     transform: translateY(24px);
@@ -534,8 +523,6 @@ nav a svg {
     height: 15px;
     stroke-width: 2;
 }
-
-/* ─── Preview Modal ─── */
 
 .image-modal {
     position: fixed;
@@ -601,13 +588,10 @@ nav a svg {
     opacity: 1;
 }
 
-/* thumbnail cursor */
-
 .project-image {
     cursor: zoom-in;
 }
 
-/* ─── Responsive ─── */
 @media (max-width: 900px) {
     .hero {
         grid-template-columns: 1fr;
@@ -619,8 +603,18 @@ nav a svg {
         grid-template-columns: 1fr;
     }
 
-    nav {
+    nav .nav-text,
+    nav .nav-text-only {
         display: none;
+    }
+
+    nav a {
+        padding: 8px 10px;
+        gap: 0;
+    }
+
+    nav a i {
+        font-size: 16px;
     }
 
     footer {
