@@ -173,7 +173,12 @@
                         <div class="project-card fade-up" style="transition-delay: ${delay}">
 
                             <div class="project-image-wrap">
-                                <img src="${project.image}" alt="${project.title}" class="project-image">
+                                <img 
+                                    src="${project.image}" 
+                                    alt="${project.title}" 
+                                    class="project-image preview-trigger"
+                                    data-image="${project.image}"
+                                >
                             </div>
 
                             <div class="project-content">
@@ -221,5 +226,11 @@
         lucide.createIcons();
     </script>
 </body>
+<div class="image-modal" id="imageModal">
+    <span class="close-modal">&times;</span>
+
+    <img id="modalImage" class="modal-image">
+
+</div>
 
 </html>

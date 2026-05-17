@@ -524,6 +524,78 @@ nav a svg {
     stroke-width: 2;
 }
 
+/* ─── Preview Modal ─── */
+
+.image-modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(3, 7, 18, .82);
+
+    backdrop-filter: blur(10px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transition: all .28s ease;
+
+    z-index: 9999;
+}
+
+.image-modal.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-image {
+    max-width: 88%;
+    max-height: 82vh;
+
+    border-radius: 18px;
+
+    border: 1px solid rgba(255, 255, 255, .08);
+
+    box-shadow:
+        0 20px 80px rgba(0, 0, 0, .45);
+
+    transform: scale(.94);
+
+    transition: transform .28s ease;
+}
+
+.image-modal.show .modal-image {
+    transform: scale(1);
+}
+
+.close-modal {
+    position: absolute;
+
+    top: 28px;
+    right: 36px;
+
+    color: white;
+
+    font-size: 42px;
+    cursor: pointer;
+
+    opacity: .7;
+
+    transition: opacity .2s;
+}
+
+.close-modal:hover {
+    opacity: 1;
+}
+
+/* thumbnail cursor */
+
+.project-image {
+    cursor: zoom-in;
+}
+
 /* ─── Responsive ─── */
 @media (max-width: 900px) {
     .hero {
