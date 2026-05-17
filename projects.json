@@ -16,7 +16,7 @@
         "icon": "🔗",
         "title": "KalaShort",
         "url": "https://github.com/abdidnugraha/kalashort-pub",
-        "image": "assets/img/projects/siramah.webp",
+        "image": "assets/img/projects/kalashort.webp",
         "deskripsi": "A modern URL shortener built with CodeIgniter 4 featuring real-time analytics, QR code generation, traffic logging, and a lightweight mobile-friendly dashboard.",
         "tags": [
             "URL Shortener",
@@ -29,7 +29,7 @@
         "icon": "🛡️",
         "title": "SIAP — Aspirations & Complaint System",
         "url": "https://github.com/abdidnugraha/siap-pub",
-        "image": "assets/img/projects/siramah.webp",
+        "image": "assets/img/projects/siap.webp",
         "deskripsi": "An anonymous campus reporting and aspiration platform built with a security-first approach, featuring audit trails, investigation workflows, and registration-free reporting.",
         "tags": [
             "CodeIgniter 4",
@@ -42,7 +42,7 @@
         "icon": "📒",
         "title": "E-Kinerja — Performance Journal",
         "url": "https://abdidnugraha.github.io/coming-soon.html",
-        "image": "assets/img/projects/siramah.webp",
+        "image": "assets/img/projects/comingsoon.webp",
         "deskripsi": "A daily performance journaling system integrated with task tracking modules for recording academic activities and operational workflows.",
         "tags": [
             "CodeIgniter 4",
@@ -55,7 +55,7 @@
         "icon": "💰",
         "title": "Cashflow",
         "url": "https://abdidnugraha.github.io/coming-soon.html",
-        "image": "assets/img/projects/siramah.webp",
+        "image": "assets/img/projects/comingsoon.webp",
         "deskripsi": "A personal finance management application for tracking income and expenses, complete with monthly financial recap and reporting features.",
         "tags": [
             "CodeIgniter 4",
@@ -68,7 +68,7 @@
         "icon": "🎓",
         "title": "Graduation Registration Information System",
         "url": "https://abdidnugraha.github.io/coming-soon.html",
-        "image": "assets/img/projects/siramah.webp",
+        "image": "assets/img/projects/comingsoon.webp",
         "deskripsi": "An academic administration platform for graduation registration, equipped with document verification and student status tracking features.",
         "tags": [
             "Academic",
@@ -81,7 +81,7 @@
         "icon": "🖥️",
         "title": "Web-Based Information Display",
         "url": "https://abdidnugraha.github.io/coming-soon.html",
-        "image": "assets/img/projects/siramah.webp",
+        "image": "assets/img/projects/comingsoon.webp",
         "deskripsi": "A digital signage system designed to display announcements, schedules, and public information in real time across institutional environments.",
         "tags": [
             "Digital Signage",
@@ -94,7 +94,7 @@
         "icon": "🏢",
         "title": "Payroll Information System",
         "url": "https://abdidnugraha.github.io/coming-soon.html",
-        "image": "assets/img/projects/siramah.webp",
+        "image": "assets/img/projects/comingsoon.webp",
         "deskripsi": "A payroll management system built to automate salary calculations, allowances, deductions, and institutional payroll operations.",
         "tags": [
             "Payroll",
