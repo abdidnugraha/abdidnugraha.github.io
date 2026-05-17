@@ -32,11 +32,11 @@
         "delay": ".12s"
     },
     {
-        "icon": "🏢",
-        "title": "Sistem Informasi Penggajian",
-        "url": "#",
-        "deskripsi": "Sistem manajemen payroll untuk otomatisasi perhitungan gaji pokok, tunjangan, dan potongan operasional instansi.",
-        "tags": ["Payroll", "CodeIgniter 4", "Bootstrap 5"],
+        "icon": "📢",
+        "title": "KalaShort",
+        "url": "https://github.com/abdidnugraha/kalashort-pub",
+        "deskripsi": "Modern URL Shortener berbasis CodeIgniter 4 dengan fitur analytics real-time, QR Code generator, traffic logging, dan dashboard management yang ringan, cepat, serta mobile-friendly.",
+        "tags": ["Url Shortener", "CodeIgniter 5", "Bootstrap 5"],
         "delay": ".19s"
     },
     {
@@ -56,115 +56,11 @@
         "delay": ".12s"
     },
     {
-        "icon": "📢",
-        "title": "E-Lapor Masyarakat",
-        "url": "https://kalasoft.id/uploads/produk/1765992909_f9f1dee15945637f905e.png",
-        "deskripsi": "Platform pengaduan berbasis web untuk menampung aspirasi dan pelaporan masalah fasilitas umum.",
-        "tags": ["Public Service", "Web App", "Reporting"],
-        "delay": ".19s"
-    },
-    {
-        "icon": "🧠",
-        "title": "Sistem Pakar (CF)",
-        "url": "https://kalasoft.id/uploads/produk/1766083993_fdfc5072c9acc2a91a0f.jpg",
-        "deskripsi": "Aplikasi sistem pakar menggunakan metode Certainty Factor untuk memberikan diagnosa berbasis aturan dengan tingkat kepastian terukur.",
-        "tags": ["Expert System", "PHP", "Algorithm"],
-        "delay": ".05s"
-    },
-    {
-        "icon": "🔍",
-        "title": "Sistem Pakar (FC)",
-        "url": "https://kalasoft.id/uploads/produk/1766082476_5d06c6b0faeb232657e1.jpg",
-        "deskripsi": "Implementasi mesin inferensi Forward Chaining untuk penarikan kesimpulan logis berdasarkan sekumpulan basis pengetahuan (rule-based).",
-        "tags": ["Forward Chaining", "Logic", "CodeIgniter 4"],
-        "delay": ".12s"
-    },
-    {
-        "icon": "📖",
-        "title": "Buku Tamu Digital",
-        "url": "https://kalasoft.id/uploads/produk/1768056172_7054075899d45d908b7e.jpg",
-        "deskripsi": "Sistem pencatatan kunjungan tamu secara elektronik untuk instansi, dilengkapi dengan rekapitulasi data pengunjung dan dashboard admin.",
-        "tags": ["Administration", "CRUD", "MySQL"],
-        "delay": ".19s"
-    },
-    {
-        "icon": "🗂️",
-        "title": "E-Arsip & Manajemen Surat",
-        "url": "https://kalasoft.id/uploads/produk/1768059099_a546c4f70c545e57f2f9.jpg",
-        "deskripsi": "Platform digitalisasi arsip untuk mengelola registrasi surat masuk, surat keluar, dan pelacakan alur disposisi antar bagian.",
-        "tags": ["E-Archive", "Office", "Workflow"],
-        "delay": ".05s"
-    },
-    {
-        "icon": "🛍️",
-        "title": "Katalog Toko",
+        "icon": "🏢",
+        "title": "Sistem Informasi Penggajian",
         "url": "#",
-        "deskripsi": "Web showcase produk dengan antarmuka dinamis, dilengkapi fitur filter kategori barang dan integrasi pemesanan via kontak langsung.",
-        "tags": ["Catalog", "Bootstrap 5", "Frontend"],
-        "delay": ".12s"
-    },
-    {
-        "icon": "📊",
-        "title": "SPK (SAW)",
-        "url": "https://kalasoft.id/uploads/produk/1768065273_ed1b2eb5600476695348.jpg",
-        "deskripsi": "Sistem Pendukung Keputusan menggunakan algoritma Simple Additive Weighting untuk otomatisasi perankingan alternatif secara terstruktur.",
-        "tags": ["SPK", "SAW", "Decision Support"],
+        "deskripsi": "Sistem manajemen payroll untuk otomatisasi perhitungan gaji pokok, tunjangan, dan potongan operasional instansi.",
+        "tags": ["Payroll", "CodeIgniter 4", "Bootstrap 5"],
         "delay": ".19s"
-    },
-    {
-        "icon": "⚖️",
-        "title": "SPK (AHP)",
-        "url": "https://kalasoft.id/uploads/produk/1768317618_c488a824deb7e7cb0e8a.jpg",
-        "deskripsi": "Implementasi Analytical Hierarchy Process untuk pemecahan masalah multikriteria yang kompleks menggunakan matriks perbandingan berpasangan.",
-        "tags": ["SPK", "AHP", "Algorithm"],
-        "delay": ".05s"
-    },
-    {
-        "icon": "🎯",
-        "title": "SPK (TOPSIS)",
-        "url": "https://kalasoft.id/uploads/produk/1768318387_8868a282edc68290ba9a.jpg",
-        "deskripsi": "Aplikasi evaluasi keputusan menggunakan metode TOPSIS berdasarkan perhitungan jarak solusi ideal positif dan solusi ideal negatif.",
-        "tags": ["SPK", "TOPSIS", "PHP"],
-        "delay": ".12s"
-    },
-    {
-        "icon": "🤖",
-        "title": "SPK (Naive Bayes)",
-        "url": "https://kalasoft.id/uploads/produk/1768317279_987ec364e08966706ffb.jpg",
-        "deskripsi": "Sistem klasifikasi probabilitas menggunakan algoritma Naive Bayes, dirancang dengan arsitektur mandiri untuk pemrosesan data latih dan uji.",
-        "tags": ["SPK", "Naive Bayes", "Classification"],
-        "delay": ".19s"
-    },
-    {
-        "icon": "🛒",
-        "title": "Simple POS",
-        "url": "https://kalasoft.id/uploads/produk/1768066768_4182a7de9a123ef58d34.jpg",
-        "deskripsi": "Aplikasi Point of Sales yang berfokus pada kecepatan transaksi kasir, manajemen stok inventori, dan cetak laporan penjualan harian.",
-        "tags": ["POS", "Retail", "CodeIgniter 4"],
-        "delay": ".05s"
-    },
-    {
-        "icon": "💡",
-        "title": "SPK (SMART)",
-        "url": "https://kalasoft.id/uploads/produk/1768318894_b0d7a162c746aeb4dd82.jpg",
-        "deskripsi": "Implementasi Simple Multi Attribute Rating Technique untuk evaluasi alternatif dengan pembobotan kriteria yang cepat dan fleksibel.",
-        "tags": ["SPK", "SMART", "PHP"],
-        "delay": ".12s"
-    },
-    {
-        "icon": "📈",
-        "title": "SPK (WP)",
-        "url": "#",
-        "deskripsi": "Sistem analisis keputusan berbasis Weighted Product yang menggunakan operasi perkalian untuk menghubungkan rating atribut.",
-        "tags": ["SPK", "WP", "Decision Support"],
-        "delay": ".19s"
-    },
-    {
-        "icon": "📐",
-        "title": "SPK (MOORA)",
-        "url": "https://kalasoft.id/uploads/produk/1768318499_1bb3ecf31f84b28f2465.jpg",
-        "deskripsi": "Kalkulasi matriks keputusan menggunakan metode Multi-Objective Optimization on the basis of Ratio Analysis untuk optimalisasi hasil.",
-        "tags": ["SPK", "MOORA", "Algorithm"],
-        "delay": ".05s"
     }
 ]
