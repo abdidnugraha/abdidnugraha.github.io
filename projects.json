@@ -42,7 +42,7 @@
         "icon": "📒",
         "title": "E-Kinerja — Performance Journal",
         "url": "https://abdidnugraha.github.io/coming-soon.html",
-        "image": "assets/img/projects/comingsoon.webp",
+        "image": "assets/img/projects/kinerja.webp",
         "deskripsi": "A daily performance journaling system integrated with task tracking modules for recording academic activities and operational workflows.",
         "tags": [
             "CodeIgniter 4",
