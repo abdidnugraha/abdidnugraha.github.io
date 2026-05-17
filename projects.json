@@ -12,6 +12,14 @@
         "delay": ".05s"
     },
     {
+        "icon": "🔗",
+        "title": "KalaShort",
+        "url": "https://github.com/abdidnugraha/kalashort-pub",
+        "deskripsi": "Modern URL Shortener berbasis CodeIgniter 4 dengan fitur analytics real-time, QR Code generator, traffic logging, dan dashboard management yang ringan, cepat, serta mobile-friendly.",
+        "tags": ["Url Shortener", "CodeIgniter 5", "Bootstrap 5"],
+        "delay": ".19s"
+    },
+    {
         "icon": "📒",
         "title": "E-Kinerja — Performance Journal",
         "url": "#",
@@ -30,14 +38,6 @@
         "deskripsi": "Aplikasi pencatatan arus kas masuk dan keluar untuk manajemen keuangan personal dengan fitur rekapitulasi laporan bulanan.",
         "tags": ["CodeIgniter 4", "Finance", "MySQL"],
         "delay": ".12s"
-    },
-    {
-        "icon": "📢",
-        "title": "KalaShort",
-        "url": "https://github.com/abdidnugraha/kalashort-pub",
-        "deskripsi": "Modern URL Shortener berbasis CodeIgniter 4 dengan fitur analytics real-time, QR Code generator, traffic logging, dan dashboard management yang ringan, cepat, serta mobile-friendly.",
-        "tags": ["Url Shortener", "CodeIgniter 5", "Bootstrap 5"],
-        "delay": ".19s"
     },
     {
         "icon": "🎓",
