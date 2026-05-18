@@ -28,7 +28,7 @@
     {
         "icon": "🛡️",
         "title": "SIAP — Aspirations & Complaint System",
-        "url": "https://github.com/abdidnugraha/siap-pub",
+        "url": "https://siap.stmikplk.ac.id/",
         "image": "assets/img/projects/siap.webp",
         "deskripsi": "An anonymous campus reporting and aspiration platform built with a security-first approach, featuring audit trails, investigation workflows, and registration-free reporting.",
         "tags": [
